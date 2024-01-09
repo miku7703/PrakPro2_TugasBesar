@@ -7,7 +7,7 @@ public class ChangeP extends javax.swing.JFrame {
     /**
      * Creates new form SignUp
      */
-    public ChangeP() {
+public ChangeP() {
         initComponents();
     }
 

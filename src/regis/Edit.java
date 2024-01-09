@@ -45,7 +45,6 @@ public class Edit extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Profil");
-        setPreferredSize(new java.awt.Dimension(600, 570));
 
         jPanel1.setMinimumSize(new java.awt.Dimension(600, 600));
         jPanel1.setPreferredSize(new java.awt.Dimension(520, 520));
@@ -169,7 +168,7 @@ public class Edit extends javax.swing.JFrame {
                     .addGroup(BG_LogLayout.createSequentialGroup()
                         .addGap(62, 62, 62)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 51, Short.MAX_VALUE))
+                .addGap(0, 101, Short.MAX_VALUE))
         );
         BG_LogLayout.setVerticalGroup(
             BG_LogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -195,7 +194,7 @@ public class Edit extends javax.swing.JFrame {
                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1)
-                .addGap(0, 211, Short.MAX_VALUE))
+                .addGap(0, 124, Short.MAX_VALUE))
         );
 
         jPanel1.add(BG_Log);
@@ -205,7 +204,9 @@ public class Edit extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
