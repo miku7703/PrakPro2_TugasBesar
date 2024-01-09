@@ -142,7 +142,12 @@ public class Profil extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel11.setText(" 12 June 1988");
 
+<<<<<<< HEAD
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
+=======
+        jButton3.setBackground(new java.awt.Color(153, 153, 0));
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
+>>>>>>> 4140dfde043a8ccbaa9a704b5937cf4afb856bb5
         jButton3.setText("Export PDF");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -262,10 +267,20 @@ public class Profil extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+         Setting SettingFrame = new Setting();
+        SettingFrame.setVisible(true);
+        SettingFrame.pack();
+        SettingFrame.setLocationRelativeTo(null);
+        this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+         Setting SettingFrame = new Setting();
+        SettingFrame.setVisible(true);
+        SettingFrame.pack();
+        SettingFrame.setLocationRelativeTo(null);
+        this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
