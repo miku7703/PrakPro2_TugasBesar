@@ -87,7 +87,6 @@ public class SignUp extends javax.swing.JFrame {
 
         jLabel4.setText("Already have Account?");
 
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setForeground(new java.awt.Color(102, 255, 102));
         jButton2.setText("Sign In");
         jButton2.setBorder(null);
