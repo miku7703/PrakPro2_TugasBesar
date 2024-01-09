@@ -12,12 +12,13 @@ import db.MySqlConnection;
  *
  * @author SIGMA
  */
+
 public class Login extends javax.swing.JFrame {
     Connection con = null;
     ResultSet rs = null ;
     PreparedStatement pst = null;
     private Home HomeFrame;
-    
+    private String loggedInUsername;
     public Login() {
           initComponents();
           con = MySqlConnection.mycon();
@@ -210,6 +211,8 @@ public class Login extends javax.swing.JFrame {
 
         rs = pst.executeQuery();
         if (rs.next()) {
+            loggedInUsername = un;
+            
             JOptionPane.showMessageDialog(rootPane, "Login Berhasil");
 
             // Buat instance Home jika belum ada
