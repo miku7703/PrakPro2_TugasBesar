@@ -57,7 +57,6 @@ public class Profil extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Profil");
-        setPreferredSize(new java.awt.Dimension(600, 570));
 
         jPanel1.setMinimumSize(new java.awt.Dimension(600, 600));
         jPanel1.setPreferredSize(new java.awt.Dimension(520, 520));
@@ -218,7 +217,7 @@ public class Profil extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -256,8 +256,8 @@ try {
     Statement s =  MySqlConnection.mycon().createStatement();
 
     // Perbaikan query INSERT
-    String query = "INSERT INTO users (`nama`, `username`, `alamat`, `notelpon`, `password`) " +
-                   "VALUES ('" + nam + "','" + u_nam + "', '" + Alamat + "' , '" + Phn + "' , '" + pass + "')";
+    String query = "INSERT INTO users (`name`, `username`, `alamat`,`email`, `no_telepon`, `password`) " +
+                   "VALUES ('" + nam + "','" + u_nam + "', '" + Alamat + "' ,'" + email + "', '" + Phn + "' , '" + pass + "')";
     
     s.executeUpdate(query);
     
