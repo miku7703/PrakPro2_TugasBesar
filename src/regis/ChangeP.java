@@ -203,9 +203,9 @@ public ChangeP() {
                         MySqlConnection.mycon().createStatement().executeUpdate(sqll);
                         JOptionPane.showMessageDialog(rootPane, "Password Change Success");
                             Profil ProfilFrame = new Profil();
-        ProfilFrame.setVisible(true);
-        ProfilFrame.pack();
-        ProfilFrame.setLocationRelativeTo(null);
+                            ProfilFrame.setVisible(true);
+                            ProfilFrame.pack();
+                            ProfilFrame.setLocationRelativeTo(null);
         this.dispose();
                     } else {
                         JOptionPane.showMessageDialog(rootPane, "New Password and Confirm Password do not match");
