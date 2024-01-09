@@ -35,7 +35,6 @@ public class ForgotP extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("ForgotP2");
-        setPreferredSize(new java.awt.Dimension(600, 570));
 
         BG_Log.setBackground(new java.awt.Color(255, 255, 255));
         BG_Log.setPreferredSize(new java.awt.Dimension(270, 697));
@@ -73,36 +72,40 @@ public class ForgotP extends javax.swing.JFrame {
         BG_Log.setLayout(BG_LogLayout);
         BG_LogLayout.setHorizontalGroup(
             BG_LogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BG_LogLayout.createSequentialGroup()
-                .addGap(137, 137, 137)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BG_LogLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(BG_LogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BG_LogLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(BG_LogLayout.createSequentialGroup()
-                        .addGap(68, 68, 68)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BG_LogLayout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(135, 135, 135))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BG_LogLayout.createSequentialGroup()
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(99, 99, 99))))
+            .addGroup(BG_LogLayout.createSequentialGroup()
+                .addGap(119, 119, 119)
+                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BG_LogLayout.createSequentialGroup()
+                .addGap(0, 82, Short.MAX_VALUE)
+                .addGroup(BG_LogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(BG_LogLayout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(141, Short.MAX_VALUE))
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(61, 61, 61))
         );
         BG_LogLayout.setVerticalGroup(
             BG_LogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(BG_LogLayout.createSequentialGroup()
                 .addGap(26, 26, 26)
                 .addComponent(jLabel5)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(12, 12, 12)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(200, Short.MAX_VALUE))
+                .addContainerGap(232, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

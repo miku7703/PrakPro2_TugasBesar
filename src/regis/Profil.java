@@ -142,6 +142,7 @@ public class Profil extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel11.setText(" 12 June 1988");
 
+        jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setBackground(new java.awt.Color(153, 153, 0));
         jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("Export PDF");
@@ -219,16 +220,15 @@ public class Profil extends javax.swing.JFrame {
         );
 
         jPanel1.add(BG_Log);
-        BG_Log.setBounds(0, 0, 370, 680);
+        BG_Log.setBounds(0, 0, 410, 680);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 411, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
