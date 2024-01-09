@@ -162,12 +162,7 @@ public class ChangeP extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        ChangePP ChangePPFrame = new ChangePP();
-        ChangePPFrame.setVisible(true);
-        ChangePPFrame.pack();
-        ChangePPFrame.setLocationRelativeTo(null);
-        this.dispose();
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jPasswordField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField2ActionPerformed
