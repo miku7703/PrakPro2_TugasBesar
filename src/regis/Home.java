@@ -210,19 +210,19 @@ public class Home extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        Sampah1 sampah1Frame = new Sampah1();
-        sampah1Frame.setVisible(true);
-        sampah1Frame.pack();
-        sampah1Frame.setLocationRelativeTo(null);
+        Sampah2 sampah2Frame = new Sampah2();
+        sampah2Frame.setVisible(true);
+        sampah2Frame.pack();
+        sampah2Frame.setLocationRelativeTo(null);
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        Sampah2 sampah2Frame = new Sampah2();
-        sampah2Frame.setVisible(true);
-        sampah2Frame.pack();
-        sampah2Frame.setLocationRelativeTo(null);
+        Sampah1 sampah1Frame = new Sampah1();
+        sampah1Frame.setVisible(true);
+        sampah1Frame.pack();
+        sampah1Frame.setLocationRelativeTo(null);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
                                           
